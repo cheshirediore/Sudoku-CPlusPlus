@@ -1,5 +1,8 @@
 #include "cell.h"
 
+// A Cell models a single cell unit of a sudoku grid. It doesn't know where or why 
+// it is, just what it contains.
+
 namespace sudoku {
     Cell::Cell () : value(0) 
     { 

@@ -1,5 +1,9 @@
 #include "mathf.h"
 
+// sudoku::mathf namespace contains all of the static math functions needed for
+// sudoku calculations and grid transformations. It it's a math function, and not
+// required to be a member of a specific class, it's probably here.
+
 namespace sudoku {
     namespace mathf {
         int CoordinatesToIndex(int x, int y) {
